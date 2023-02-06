@@ -42,6 +42,11 @@ body {
   border-bottom: 1px solid #bfbfbf;
 }
 
+.wrapper header.active {
+  cursor: move;
+  user-select: none;
+}
+
 .wrapper .content {
   display: flex;
   align-items: center;
